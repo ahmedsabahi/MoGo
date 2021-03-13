@@ -1,0 +1,34 @@
+.whatwedo {
+  .section-content {
+    padding: 50px 0 20px;
+    .btn {
+      position: relative;
+      font-size: 14px;
+      font-weight: 700;
+      display: block;
+      text-align: left;
+      color: $headerColor;
+      .fa-image,
+      .fa-sliders-h,
+      .fa-palette {
+        font-size: 30px;
+        color: $iconColor;
+        margin-right: 20px;
+      }
+      .fa-chevron-up {
+        position: absolute;
+        top: 13px;
+        right: 10px;
+        font-size: 20px;
+        color: #ccc;
+      }
+    }
+    .card + .card {
+      margin-top: 8px;
+    }
+  }
+}
+
+.collapsed .fa-chevron-up {
+  transform: rotate(180deg);
+}

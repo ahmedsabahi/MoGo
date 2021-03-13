@@ -1,0 +1,29 @@
+.lastblog {
+  .card {
+    position: relative;
+    border: transparent;
+    &-date {
+      position: absolute;
+      left: -10px;
+      top: 150px;
+      padding: 10px 15px;
+      color: #fff;
+      background: $iconColor;
+      text-align: center;
+      .number,
+      .text {
+        display: block;
+        color: #fff;
+      }
+    }
+    &-img-top {
+      height: 240px;
+    }
+    &-footer {
+      background-color: transparent;
+      .icon {
+        color: $iconColor;
+      }
+    }
+  }
+}

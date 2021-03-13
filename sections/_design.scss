@@ -1,0 +1,32 @@
+.design {
+  padding-top: 90px;
+  background: url(../../imgs/unique-design/bg-unique-design.jpg) no-repeat
+    center center / cover;
+  .devices {
+    position: relative;
+    text-align: center;
+    .iphone {
+      position: absolute;
+      right: 200px;
+      bottom: -65px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .design .devices img {
+    max-width: 70%;
+  }
+  .design .devices .iphone {
+    right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .design .devices img {
+    max-width: 60%;
+  }
+  .design .devices .iphone {
+    display: none;
+  }
+}

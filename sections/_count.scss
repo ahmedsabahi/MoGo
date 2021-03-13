@@ -1,0 +1,30 @@
+.count {
+  background: #95e1d3;
+  text-transform: uppercase;
+  color: #ffffff;
+  font: {
+    family: "Montserrat";
+    size: 14px;
+    weight: 700;
+  }
+  .item {
+    border-right: 1px solid white;
+    padding: 60px 0;
+    &:first-child {
+      border-left: 1px solid white;
+    }
+    .number {
+      font-size: 72px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .count .item {
+    border-right: none;
+    padding: 10px 0;
+    &:first-child {
+      border-left: none;
+    }
+  }
+}

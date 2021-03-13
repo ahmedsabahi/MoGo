@@ -1,0 +1,56 @@
+.quotes2 {
+  padding: 60px 0;
+  .carousel {
+    .carousel-inner {
+      width: 80%;
+      margin: 0 auto;
+    }
+    &-item {
+      .avatar {
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+      }
+      .blockquote {
+        padding: 50px 20px 50px;
+      }
+      .blockquote p cite {
+        font-size: 19px;
+      }
+      .blockquote-footer {
+        color: #000;
+        &::before {
+          color: #f38181;
+          font-size: 27px;
+          font-weight: 600;
+        }
+      }
+    }
+    &-control-icon {
+      font-size: 20px;
+      color: #ccc;
+    }
+  }
+}
+
+@media (max-width: 1140px) {
+  .quotes2 .carousel-item .blockquote {
+    padding: 30px 20px 30px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+}
+@media (max-width: 992px) {
+  .quotes2 .carousel-item .blockquote {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 768px) {
+  .quotes2 .carousel-item .avatar {
+    display: none;
+  }
+}

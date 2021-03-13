@@ -1,0 +1,112 @@
+*,
+html,
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: $headerColor;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: $pColor;
+}
+
+ul,
+ul li,
+ol,
+ol li,
+p,
+form,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #005323;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: $hoverColor;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+span {
+  font: {
+    size: 24px;
+    weight: 400;
+    family: "Kaushan Script", cursive;
+  }
+}
+
+section {
+  margin: 80px 0;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+.line-shape {
+  width: 60px;
+  height: 3px;
+  background-color: $lineColor;
+  margin: 25px auto 35px;
+}
+
+.btn {
+  color: $whiteColor;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.section-heading {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#scrollToTop {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #75b4a8;
+}
