@@ -239,6 +239,9 @@ img {
   .navbar-dark .navbar-nav .nav-link.active {
     border-color: transparent;
   }
+  .navbar-expand-lg > .container {
+    padding: 0 10px;
+  }
 }
 
 @media (max-width: 762px) {
@@ -246,13 +249,22 @@ img {
     font-size: 40px;
   }
   .header .carousel-item__head {
-    font-size: 70px;
+    font-size: 50px;
   }
   .header .carousel-inner {
-    height: 480px;
+    height: 400px;
   }
   .header .carousel-item {
     top: 30px;
+  }
+  .header .carousel-indicators li .inner .number {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .header .carousel .carousel-indicators {
+    bottom: 50px;
   }
 }
 
@@ -659,7 +671,13 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100px;
-  height: 90px;
+  height: 100px;
+}
+
+@media (max-width: 400px) {
+  .happyclient .card .avatar {
+    height: 75px;
+  }
 }
 
 .lastblog .card {
