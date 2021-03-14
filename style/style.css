@@ -676,7 +676,13 @@ img {
 
 @media (max-width: 400px) {
   .happyclient .card .avatar {
-    height: 75px;
+    height: 91px;
+  }
+}
+
+@media (max-width: 350px) {
+  .happyclient .card .avatar {
+    height: 70px;
   }
 }
 
