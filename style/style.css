@@ -484,6 +484,12 @@ img {
   padding: 50px 0 20px;
 }
 
+.whatwedo .section-content #collapseOne,
+.whatwedo .section-content #collapseTwo,
+.whatwedo .section-content #collapseThree {
+  max-height: 133px;
+}
+
 .whatwedo .section-content .btn {
   position: relative;
   font-size: 14px;

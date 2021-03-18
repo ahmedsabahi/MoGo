@@ -1,6 +1,11 @@
 .whatwedo {
   .section-content {
     padding: 50px 0 20px;
+    #collapseOne,
+    #collapseTwo,
+    #collapseThree {
+      max-height: 133px;
+    }
     .btn {
       position: relative;
       font-size: 14px;
